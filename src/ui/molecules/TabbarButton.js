@@ -27,11 +27,6 @@ const TextButton = styled.div`
   font-size: 10px;
 `;
 
-/**
- * Use `StreamerName` to display name's users
- *
- */
-
 const TabbarButton = props => {
     const { text, color, icon } = props;
     return <ButtonIcon onClick={action('clicked')}><TabbarIcons icon={icon} color={color}/><TextButton color={color}>{text}</TextButton></ButtonIcon>

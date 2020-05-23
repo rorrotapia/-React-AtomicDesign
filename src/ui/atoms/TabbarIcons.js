@@ -9,16 +9,17 @@ export const colors = {
     white: "white"
 };
 const Icon = styled.div`
+background-color:black;
+text-align:center;
 `;
 
 const TabbarIcons = props => {
-    const { color, icon } = props;
-    return <Icon><MaterialIcon icon={icon} color={color}/></Icon>
+    const { color, icon, size } = props;
+    return <Icon><MaterialIcon icon={icon} size={size} color={color}/></Icon>
 };
 
 TabbarIcons.propTypes = {
     color: PropTypes.oneOf(Object.keys(colors)),
-    text: PropTypes.string
 };
 
 TabbarIcons.defaultProps = {

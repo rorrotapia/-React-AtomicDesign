@@ -4,7 +4,7 @@ import {boolean, text} from "@storybook/addon-knobs";
 import TabbarIcons from "../ui/atoms/TabbarIcons";
 
 export default {
-  title: 'TabbarIcons',
+  title: 'Atoms / Icons',
   component: TabbarIcons,
   parameters: {
     componentSubtitle: "La démontration de cette page du premier button vaut pour les trois autres suivants.",
@@ -20,7 +20,7 @@ const colors = {
   white: "white"
 };
 
-export const Suivis = () => <TabbarIcons icon="favorite" color={colors.white}/>
+export const Suivis = () => <TabbarIcons icon="favorite" color={colors.white} />
 export const Decouverte = () => <TabbarIcons icon="explore" color={colors.white}/>
 export const Parcourir = () => <TabbarIcons icon="filter_none" color={colors.white}/>
 export const Esports = () => <TabbarIcons icon="emoji_events" color={colors.white}/>

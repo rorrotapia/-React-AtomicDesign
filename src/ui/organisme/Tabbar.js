@@ -29,7 +29,6 @@ const Tabbar = props => {
 
 Tabbar.propTypes = {
     color: PropTypes.oneOf(Object.keys(colors)),
-    text: PropTypes.string
 };
 
 Tabbar.defaultProps = {
