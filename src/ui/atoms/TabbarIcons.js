@@ -1,12 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import MaterialIcon from "material-icons-react";
+import styled from "styled-components";
+import Colors from "../particles/Colors";
 
 export const colors = {
     purple: "purple",
     white: "white"
 };
-
+const Icon = styled.div`
+`;
 
 const TabbarIcons = props => {
     const { color, icon } = props;

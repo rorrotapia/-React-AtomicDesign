@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import Colors from "../particles/Colors";
 import MaterialIcon from "material-icons-react";
 import {action} from "@storybook/addon-actions";
-import TabbarIcons from "./TabbarIcons";
+import TabbarIcons from "../atoms/TabbarIcons";
 
 export const colors = {
     purple: "purple",
